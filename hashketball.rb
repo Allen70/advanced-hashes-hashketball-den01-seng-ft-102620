@@ -238,7 +238,7 @@ bstats.each {|statb, final|
   return 
   end
 binding.pry
-end
+
 }
 }
 end
