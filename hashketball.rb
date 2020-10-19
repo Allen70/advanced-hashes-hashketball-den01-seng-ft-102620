@@ -235,7 +235,8 @@ if teamvalue == game_hash[key][:players]
 teamvalue.each {|bstats, bmore|
 bstats.each {|statb, final|
   if statb == :shoe && final == size
-return 
+  return 
+  end
 binding.pry
 end
 }
